@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Umar Tolibov — Python, backend & ML</title>
+  <meta name="description" content="Umar Tolibov: Python backend, web and machine learning projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap bar">
+      <a class="logo" href="#/">umar<span>.</span>dev</a>
+      <nav>
+        <a href="#/">projects</a>
+        <a href="#about">about</a>
+        <a href="mailto:tolibovu14@gmail.com">contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="view" aria-live="polite"></section>
+
+    <section id="about" class="about">
+      <div class="about-photo">
+        <img src="assets/profile.jpg" alt="Umar Tolibov" onerror="this.remove(); this.parentElement.classList.add('empty')">
+        <span class="photo-hint">your photo<br><small>assets/profile.jpg</small></span>
+      </div>
+      <div class="about-text">
+        <h2>about</h2>
+        <p>Final-year Artificial Intelligence student in Tashkent with 2+ years of Python. I work on backend APIs, Telegram bots, a self-built CMS and machine learning experiments.</p>
+        <p class="muted">Languages: English (fluent), Russian (intermediate), Uzbek (native).</p>
+        <p class="links">
+          <a href="https://github.com/wlvUmar">github</a>
+          <a href="https://www.kaggle.com/umartolibov">kaggle</a>
+          <a href="https://www.linkedin.com/in/umar-tolibov/">linkedin</a>
+          <a href="mailto:tolibovu14@gmail.com">tolibovu14@gmail.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">Tashkent, Uzbekistan</div>
+  </footer>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Screenshot viewer">
+    <div class="lb-top">
+      <span id="lb-caption"></span>
+      <div class="lb-tools">
+        <button type="button" id="lb-zoom">zoom in</button>
+        <button type="button" id="lb-close">close</button>
+      </div>
+    </div>
+    <div class="lb-stage" id="lb-stage"><img id="lb-img" alt=""></div>
+    <button type="button" class="lb-nav lb-prev" id="lb-prev" aria-label="Previous">&#8249;</button>
+    <button type="button" class="lb-nav lb-next" id="lb-next" aria-label="Next">&#8250;</button>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
