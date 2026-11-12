@@ -4,7 +4,7 @@ const PROJECTS = [
   {
     id: "ielts-platform",
     name: "IELTS Platform",
-    status: "local build · test data",
+    status: "in development · near production",
     summary: "Mock-exam platform: Django API, student app and staff app.",
     stack: ["Django", "DRF", "Celery", "Redis", "PostgreSQL", "MinIO", "Docker", "React", "TypeScript", "Playwright"],
     description: "A mock-exam platform for IELTS-style practice. One Django REST API serves two React apps: a student app and a staff app for coordinators, examiners and admins.",
@@ -34,7 +34,7 @@ const PROJECTS = [
   {
     id: "customcms",
     name: "CustomCms",
-    status: "live · kuplyu-tashkent.uz",
+    status: "live · user-side landing page",
     live: "https://kuplyu-tashkent.uz",
     summary: "Self-built SEO-focused CMS in PHP, with no framework.",
     stack: ["PHP 8", "custom MVC", "MySQL", "JSON-LD", "sitemaps", "IndexNow"],
@@ -62,10 +62,10 @@ const PROJECTS = [
   {
     id: "uchaska",
     name: "Uchaska",
-    status: "local build · demo data",
+    status: "private APK · demo data",
     summary: "Student apartment management: rooms, residents, rent and debtors.",
     stack: ["Django 5", "DRF", "APScheduler", "Telegram Bot API", "React", "Vite (PWA)", "PostgreSQL / SQLite"],
-    description: "A management app for student apartments and shared housing. It tracks rooms and beds, residents and leases, rent payments and debtors, expenses and profit, from a phone-first interface.",
+    description: "Delivered as a private Android APK. A management app for student apartments and shared housing. It tracks rooms and beds, residents and leases, rent payments and debtors, expenses and profit, from a phone-first interface.",
     features: [
       "Rooms and beds: occupancy per room, bed status and vacancy loss.",
       "Residents and leases: move-in dates, rent per bed, deposits, and one active lease per bed.",
