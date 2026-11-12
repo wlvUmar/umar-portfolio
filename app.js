@@ -21,7 +21,7 @@ const PROJECTS = [
       "Atomic transactions and locks for writes that can race.",
       "Playwright end-to-end browser tests and a dev-only QA console with seeded test accounts."
     ],
-    role: "sole developer",
+    role: "lead developer",
     shots: [
       { file: "assets/ielts-1.jpg", caption: "Student app: landing page" },
       { file: "assets/ielts-student-tests.jpg", caption: "Student app: mock tests list" },
@@ -51,7 +51,7 @@ const PROJECTS = [
       "Custom Router, Controller and Model core.",
       "SEO engine: JSON-LD, sitemaps and IndexNow submission."
     ],
-    role: "sole developer",
+    role: "full-stack developer",
     shots: [
       { file: "assets/customcms-admin-2.png", caption: "Admin dashboard: content and pages" },
       { file: "assets/customcms-admin-3.png", caption: "Analytics: visits, calls and CTR over time" },
@@ -77,7 +77,7 @@ const PROJECTS = [
       "Database constraints enforce one active lease per resident and per bed.",
       "Demo seed command for local testing."
     ],
-    role: "sole developer",
+    role: "full-stack developer",
     shots: [
       { file: "assets/uchaska-dashboard.jpg", caption: "Dashboard: occupancy, rent collected, debtors and net profit" },
       { file: "assets/uchaska-rooms.jpg", caption: "Rooms: bed occupancy per room" },
@@ -87,7 +87,8 @@ const PROJECTS = [
   {
     id: "click-usta",
     name: "Click Usta",
-    status: "local build · demo data",
+    status: "telegram bot · t.me/clickustabot",
+    live: "https://t.me/clickustabot",
     summary: "Home-repair marketplace: customers, craftsmen and an admin panel, as a Telegram Mini App.",
     stack: ["Django 5.2", "DRF", "JWT", "Celery", "Redis", "Telegram Bot API", "React", "TypeScript", "Vite"],
     description: "A service marketplace in Uzbekistan where customers order home repairs (electrical, plumbing and similar) from independent craftsmen. It runs as a Telegram Mini App with a backend and an admin panel for operations.",
@@ -99,7 +100,7 @@ const PROJECTS = [
       "Telegram login: Telegram Mini App authentication, with a dev bypass for local testing."
     ],
     engineering: [],
-    role: "sole developer",
+    role: "full-stack developer",
     shots: [
       { file: "assets/clickusta-orders.jpg", caption: "Admin: orders with status, customer and assigned craftsman" },
       { file: "assets/clickusta-stats.jpg", caption: "Admin: today's order and craftsman statistics" },
